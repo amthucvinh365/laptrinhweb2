@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/fontawesome-free-5.15.4-web/css/all.min.css">
+    <link rel="stylesheet" href="css/layout.css">
+</head>
+<body>
+    <!-- header start -->
+    <div class="header">
+        <div class="header__inner">
+            <div>
+                <img class="logo" src="images/logo.png" alt="">
+            </div>
+            <div class="nav-pc">
+                <div class="menu">
+                    <span class="menu__item"><a href="index.html">Home</a></span>
+                    <span class="menu__item"><a href="blog.html">Blog</a></span>
+                    <span class="menu__item"><a href="AboutUs.html">About Us</a></span>
+                    <span class="menu__item"><a href="contact.html">Contact</a></span>
+                </div>
+            </div>
+            <label for="nav-mobile-input" class="navbar-btn">
+                <i class="fas fa-bars"></i>
+            </label>
+
+            <input type="checkbox" hidden class="nav_input" id="nav-mobile-input">
+
+            <label for="nav-mobile-input" class="nav_overlay"></label>
+
+            <nav class="nav_mobile">
+                <label for="nav-mobile-input" class="nav_mobile-close">
+                    <i class="fas fa-times"></i>              
+                </label>
+                <div class="menu_mobile">
+                    <span class="menu_mobile-link"><a href="index.html">Home</a></span>
+                    <span class="menu_mobile-link"><a href="blog.html">Blog</a></span>
+                    <span class="menu_mobile-link"><a href="AboutUs.html">About Us</a></span>
+                    <span class="menu_mobile-link"><a href="contact.html">Contact</a></span>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <!-- header end-->
+    <div class="contact">
+        <div id="comments">
+            <div id="respond">
+              <h2>Leave a Reply</h2>
+              <div class="break"></div>
+              <form action="" method="post" id="commentform">
+                <p>
+                  <input type="text" name="author" id="author" value="" size="22" tabindex="1" placeholder="Name (required)"/>
+                </p>
+                <p>
+                  <input type="text" name="email" id="email" value="" size="22" tabindex="2" placeholder="Mail (required)"/>
+                </p>
+                <p>
+                  <textarea name="comment" id="comment" rows="10" col="60"></textarea>
+                </p>
+                <p>
+                  <button name="submit" type="submit" id="submit">Submit</button>
+                </p>
+              </form>
+            </div>
+          </div>
+        </div>
+    </div>
+
+    <!-- footer -->
+    <footer>
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 footer-item item-1">
+                        <span>Follow</span>
+                        <div class="ft-logo">
+                            <a href="https://www.facebook.com/profile.php?id=100023145501160"><i class="fab fa-facebook"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 footer-item">
+                        <span>Liên hệ</span>
+                        <p>0367332235</p>
+                        <p>amthucvinh365@gmail.com</p>
+                    </div>
+                    <div class="col-lg-4 footer-item">
+                        <span>Địa chỉ</span>
+                        <p>Thành phố Vinh, tỉnh Nghệ An, Việt Nam</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
